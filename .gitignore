@@ -1,3 +1,5 @@
 Library/
 UWP/
 obj/
+Build/
+Temp/
