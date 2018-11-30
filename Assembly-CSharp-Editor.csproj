@@ -78,17 +78,17 @@
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PlayerRoomIndexingInspector.cs" />
     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\Editor\PunTeamsInspector.cs" />
     <Compile Include="Assets\SharingPreview\ShareState\Editor\ShareStateEditor.cs" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2018.1/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
@@ -730,65 +730,65 @@
       <Project>{C61D67E1-7CB6-0843-E11F-0E780B84A92E}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.InputSystem.Inspectors.csproj">
-      <Project>{1472B34C-68CB-0F89-4BBF-6779DAC8FE2A}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.InputSystem.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.Demos.StandardShader.Inspectors.csproj">
-      <Project>{31D1E55C-3559-0C7C-9795-2E77D2EF64B0}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Examples.Demos.StandardShader.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Inspectors.csproj">
-      <Project>{C472C875-C8FE-6669-D75B-9EB43E456B70}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Definitions.Utilities.Editor.csproj">
-      <Project>{A5454AD1-4475-11DC-B6A6-C943B62762C6}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Definitions.Utilities.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
-      <Project>{9BC182CA-E699-F8DA-6933-A7898EB90D3D}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
-    </ProjectReference>
-    <ProjectReference Include="VuforiaScripts.csproj">
-      <Project>{53CF73EC-9BF6-935F-E79F-2625DA11ABD2}</Project>
-      <Name>VuforiaScripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.csproj">
-      <Project>{4CC3D6C7-DE4B-7B85-9046-BF8C7585322C}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Utilities.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.InputSystem.csproj">
-      <Project>{E19D5270-F2F5-3AD1-1405-9C0DDE4A325B}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.InputSystem</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Extensions.EditorClassExtensions.csproj">
-      <Project>{27F7F2E9-B294-1163-6170-7FE70450862A}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Extensions.EditorClassExtensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Inspectors.csproj">
-      <Project>{5DF75FA8-BBA8-FD6B-D9CE-434BDF5D201F}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK.Inspectors</Name>
-    </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
-      <Project>{EFA441A0-9242-FA8A-3B05-43D9B51C2BBE}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Build.csproj">
+      <Project>{58B0E0E9-1B49-8BCA-79C4-19087F2C5007}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Core.Build</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Async.csproj">
       <Project>{0865AA38-FF84-A308-E570-EAA38B04625D}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Core.Utilities.Async</Name>
     </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.InputSystem.Inspectors.csproj">
+      <Project>{1472B34C-68CB-0F89-4BBF-6779DAC8FE2A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.InputSystem.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{53CF73EC-9BF6-935F-E79F-2625DA11ABD2}</Project>
+      <Name>VuforiaScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Extensions.EditorClassExtensions.csproj">
+      <Project>{27F7F2E9-B294-1163-6170-7FE70450862A}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Core.Extensions.EditorClassExtensions</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
       <Project>{C6E456B8-898A-44C7-FDAF-C5D7160B3958}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Inspectors.csproj">
+      <Project>{5DF75FA8-BBA8-FD6B-D9CE-434BDF5D201F}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="VuforiaEditorScripts.csproj">
       <Project>{9710E569-3D0A-A6D5-9F06-DDDDB33CA767}</Project>
       <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
-    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Build.csproj">
-      <Project>{58B0E0E9-1B49-8BCA-79C4-19087F2C5007}</Project>
-      <Name>Microsoft.MixedReality.Toolkit.Core.Build</Name>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
+      <Project>{EFA441A0-9242-FA8A-3B05-43D9B51C2BBE}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.InputSystem.csproj">
+      <Project>{E19D5270-F2F5-3AD1-1405-9C0DDE4A325B}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Definitions.Utilities.Editor.csproj">
+      <Project>{A5454AD1-4475-11DC-B6A6-C943B62762C6}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Core.Definitions.Utilities.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Inspectors.csproj">
+      <Project>{C472C875-C8FE-6669-D75B-9EB43E456B70}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Core.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.csproj">
+      <Project>{4CC3D6C7-DE4B-7B85-9046-BF8C7585322C}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Core.Utilities.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.Demos.StandardShader.Inspectors.csproj">
+      <Project>{31D1E55C-3559-0C7C-9795-2E77D2EF64B0}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Examples.Demos.StandardShader.Inspectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.MixedReality.Toolkit.Examples.csproj">
+      <Project>{9BC182CA-E699-F8DA-6933-A7898EB90D3D}</Project>
+      <Name>Microsoft.MixedReality.Toolkit.Examples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,15 +7,25 @@ using BestHTTP;
 using BestHTTP.WebSocket;
 using BestHTTP.Examples;
 
+[Serializable]
+public class JSON_ColourCommand
+{
+    public string sender;
+    public int r;
+    public int g;
+    public int b;
+}
+
 public class TestWebsocketConnection : MonoBehaviour
 {
-    #region Private Fields
 
     /// <summary>
     /// The WebSocket address to connect
     /// </summary>
-    string address = "ws://172.20.10.2:40510";
-
+    public string address = "ws://192.168.4.118:40510";
+    public TurnGreenOnMessage green_message;
+    #region Private Fields
+    
     /// <summary>
     /// Default text to send
     /// </summary>
@@ -89,6 +99,14 @@ public class TestWebsocketConnection : MonoBehaviour
     void OnMessageReceived(WebSocket ws, string message)
     {
         Debug.Log("-Message received: {0}" + message);
+        JSON_ColourCommand decoded_message= JsonUtility.FromJson<JSON_ColourCommand>(message);
+
+        Debug.Log(decoded_message.sender);
+        if (decoded_message.sender == "server")
+        {
+            green_message.Should_Turn_Green();
+        }
+
     }
 
     /// <summary>
