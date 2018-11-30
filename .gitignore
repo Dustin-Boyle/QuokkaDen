@@ -2,3 +2,6 @@ Library/
 UWP/
 obj/
 Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat.meta
+Replication_build/
+replicationBuild2/
+Temp/

@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Template/Main.unity
     guid: f32f621cf36b13c459764a5ca0ca1153
+  - enabled: 1
+    path: Assets/QuokkaProject/Scenes/DynamicDisplayControl.unity
+    guid: de292719c6afc2b4e9970d2127264328
   m_configObjects: {}

@@ -29,8 +29,8 @@ public class PixelListener : MonoBehaviour,IMixedRealityFocusHandler, IMixedReal
            // Debug.Log("Color" + eventData.selectedObject.GetComponent<Renderer>().material.color.ToString());
 
             //Find the gazed object, get the material and change the color to "CurrentColor"
-            eventData.selectedObject.GetComponent<Renderer>().material.color = currentColor;
-          
+            //eventData.selectedObject.GetComponent<Renderer>().material.color = currentColor;
+            eventData.selectedObject.GetComponent<CubeColor>().Color = currentColor;
         }
 
     }
