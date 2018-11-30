@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4DE19D6D-93B2-86B7-E1B3-1AFA844529EB}</ProjectGuid>
+    <ProjectGuid>{58B0E0E9-1B49-8BCA-79C4-19087F2C5007}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Microsoft.MixedReality.Toolkit.Core.Build</AssemblyName>
@@ -299,16 +299,16 @@
       <HintPath>C:/Program Files/Unity2018.1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.Setup">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/MixedRealityToolkit/_Core/Utilities/Editor/Setup/Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.Setup.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/MixedRealityToolkit/_Core/Utilities/Editor/Setup/Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.Setup.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/MRAUser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -685,11 +685,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{9E900885-8E7C-6597-43FB-96470CD0786C}</Project>
+      <Project>{C6E456B8-898A-44C7-FDAF-C5D7160B3958}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.csproj">
-      <Project>{856DD92D-AF4C-9EF4-BE3F-524E4E6CB4B9}</Project>
+      <Project>{4CC3D6C7-DE4B-7B85-9046-BF8C7585322C}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Core.Utilities.Editor</Name>
     </ProjectReference>
   </ItemGroup>

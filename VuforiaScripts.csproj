@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F0227DB6-AEA5-8188-613E-BC0E68FF036D}</ProjectGuid>
+    <ProjectGuid>{53CF73EC-9BF6-935F-E79F-2625DA11ABD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>VuforiaScripts</AssemblyName>
@@ -294,16 +294,16 @@
       <HintPath>C:/Program Files/Unity2018.1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.Setup">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/MixedRealityToolkit/_Core/Utilities/Editor/Setup/Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.Setup.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/MixedRealityToolkit/_Core/Utilities/Editor/Setup/Microsoft.MixedReality.Toolkit.Core.Utilities.Editor.Setup.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/MRAUser/Documents/Quokkart/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Users/MRAUser/Documents/QuokkaDen/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/MRAUser/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
